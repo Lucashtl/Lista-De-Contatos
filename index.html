@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Lista de contatos</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="imagens/agendaColorida.png" alt="Agenda colorida">
+            <h1>Agenda De contatos</h1>
+        </header>
+        <form id="formulario">
+            <input id="nome" type="text" placeholder="Nome"  required>  
+            <input id="numero" type="number" placeholder="Numero" maxlength="11" required>
+            <p class="erro">numero incompleto</p>
+            <button type="submit">Adcionar</button>
+            
+            
+        </form>
+        
+
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Nomes</th>
+                    <th>Contatos</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
